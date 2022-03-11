@@ -1,13 +1,13 @@
 {
-  "name": "vercel-rust",
-  "description": "Rust runtime for Vercel Functions.",
+  "name": "vercel-rust-nightly",
+  "description": "Rust nightly runtime for Vercel Functions.",
   "version": "3.1.2",
   "license": "MIT",
   "main": "./dist/index",
-  "homepage": "https://github.com/vercel-community/rust",
+  "homepage": "https://github.com/Borber/vercel-rust-nightly",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel-community/rust.git"
+    "url": "https://github.com/Borber/vercel-rust-nightly.git"
   },
   "scripts": {
     "build": "tsc",

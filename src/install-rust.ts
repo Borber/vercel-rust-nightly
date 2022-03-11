@@ -1,7 +1,7 @@
 import execa from 'execa';
 import { debug } from '@vercel/build-utils';
 
-async function downloadRustToolchain(version: string = 'stable') {
+async function downloadRustToolchain(version: string = 'nightly') {
   debug('Downloading the rust toolchain');
 
   try {
